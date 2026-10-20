@@ -41,7 +41,7 @@ export default function App() {
         <div className="header-right">
           <span className="eyebrow">20 tháng 10, 2026</span>
           <a className="top-link" href="#loi-chuc">
-            Lời chúc dành cho bạn ↗
+            Lời chúc dành cho em ↗
           </a>
         </div>
       </header>
@@ -54,7 +54,7 @@ export default function App() {
           ></div>
           <div className="hero-glow" aria-hidden="true"></div>
           <div className="hero-inner">
-            <div className="eyebrow">Một món quà nhỏ · dành riêng cho bạn</div>
+            <div className="eyebrow">Một món quà nhỏ · dành riêng cho em</div>
             <h1 id="hero-title">
               Hôm nay là
               <br />
@@ -62,8 +62,8 @@ export default function App() {
             </h1>
             <span className="script">Nguyễn Phương Thảo</span>
             <p className="hero-copy">
-              Chúc bạn một ngày 20/10 dịu dàng, rực rỡ và ngập tràn những điều
-              khiến trái tim mỉm cười.
+              Thảo ơi, mong hôm nay em được ôm trọn trong yêu thương, dịu dàng
+              như những cánh hoa và rực rỡ theo cách riêng của mình.
             </p>
             <div className="hero-actions">
               <button className="primary-button" onClick={openLetter}>
@@ -92,21 +92,22 @@ export default function App() {
           <div className="message-content">
             <div className="eyebrow">Gửi đến Nguyễn Phương Thảo</div>
             <h2>
-              Mong bạn luôn
+              Mong em luôn
               <br />
               <em>nở hoa</em> theo cách của mình.
             </h2>
             <p>
-              Thảo thân mến, hôm nay là một dịp đẹp để nhắc bạn rằng sự hiện
-              diện của bạn luôn rất đáng quý. Mong những ngày phía trước mang
-              đến cho bạn thật nhiều bình yên, niềm vui và những bất ngờ ngọt
-              ngào.
+              Thảo ơi, có lẽ em chẳng biết rằng chỉ một nụ cười của em cũng đủ
+              làm một ngày bình thường trở nên thật đẹp. Mong những ngày phía
+              trước luôn nâng niu em bằng bình yên, niềm vui và những bất ngờ
+              ngọt ngào.
             </p>
             <p>
-              Hãy cứ tự tin là chính mình, theo đuổi điều bạn yêu và dành cho
-              bản thân sự dịu dàng mà bạn xứng đáng nhận được.
+              Cứ là em thôi — đáng yêu, kiên cường và chân thành. Nếu có ngày
+              nào thấy mỏi, mong em nhớ rằng mình luôn xứng đáng với những điều
+              dịu dàng nhất.
             </p>
-            <div className="signature">With love, for Thảo ♡</div>
+            <div className="signature">Thương gửi em, Thảo ♡</div>
           </div>
         </section>
         <section className="wishes section" aria-labelledby="wish-title">
@@ -124,7 +125,7 @@ export default function App() {
               <div className="wish-icon">♡</div>
               <h3>Thật nhiều yêu thương</h3>
               <p>
-                Để bạn luôn cảm thấy được trân trọng và ôm ấp bởi những người
+                Để em luôn cảm thấy được trân trọng và ôm ấp bởi những người
                 thương mến.
               </p>
             </article>
@@ -132,7 +133,7 @@ export default function App() {
               <div className="wish-icon">✦</div>
               <h3>Thật nhiều can đảm</h3>
               <p>
-                Để mọi ước mơ của bạn có cơ hội trở thành những ngày thật đẹp.
+                Để mọi ước mơ của em có cơ hội trở thành những ngày thật đẹp.
               </p>
             </article>
           </div>
@@ -145,8 +146,8 @@ export default function App() {
             có <em>Thảo</em> ở trong đó.
           </h2>
           <p>
-            Chúc mừng ngày Phụ nữ Việt Nam 20/10. Mong nụ cười luôn ở lại trên
-            môi bạn, hôm nay và mọi ngày.
+            Chúc mừng ngày Phụ nữ Việt Nam 20/10. Mong em được yêu thương thật
+            nhiều, hôm nay và cả những ngày chẳng cần một dịp đặc biệt.
           </p>
           <span className="script">Always bloom</span>
           <button className="primary-button" onClick={() => petals(45)}>
@@ -156,34 +157,46 @@ export default function App() {
       </main>
       <footer>
         <span>Made with ♡ for Nguyễn Phương Thảo</span>
-        <span>20.10.2026 · Dành riêng cho bạn</span>
+        <span>20.10.2026 · Dành riêng cho em</span>
       </footer>
       <dialog
+        className="letter-dialog"
         ref={dialogRef}
-        onClick={(event) => {
-          if (event.target === event.currentTarget) dialogRef.current?.close();
-        }}
         aria-labelledby="letter-title"
       >
-        <div className="letter">
-          <button
-            className="close"
-            onClick={() => dialogRef.current?.close()}
-            aria-label="Đóng lá thư"
-          >
-            ×
-          </button>
-          <div className="letter-mark">✿</div>
-          <div className="eyebrow">Một lá thư nhỏ · 20/10</div>
-          <h2 id="letter-title">Thảo thân mến,</h2>
-          <p>
-            Chúc bạn luôn được sống những ngày thật đẹp, được yêu thương theo
-            cách mình mong muốn và đủ dũng cảm để bước về phía những giấc mơ.
-            Cảm ơn bạn vì đã là chính bạn — một người đặc biệt theo cách chẳng
-            ai có thể thay thế.
-          </p>
-          <p>Chúc mừng ngày Phụ nữ Việt Nam! ♡</p>
-          <div className="signature">Dành riêng cho Thảo</div>
+        <div className="letter-scene">
+          <div className="letter-sparkles" aria-hidden="true">
+            <span>✦</span><span>♡</span><span>✿</span><span>✧</span>
+            <span>❀</span><span>✦</span><span>♡</span><span>✧</span>
+          </div>
+          <div className="envelope-back" aria-hidden="true"></div>
+          <div className="letter">
+            <button
+              className="close"
+              onClick={() => dialogRef.current?.close()}
+              aria-label="Đóng lá thư"
+            >
+              ×
+            </button>
+            <div className="letter-ornament" aria-hidden="true">✿</div>
+            <div className="eyebrow">Chỉ gửi một mình em · 20/10</div>
+            <h2 id="letter-title">Thảo ơi,</h2>
+            <p>
+              Nếu mỗi bông hoa là một lời chúc, bó hoa này vẫn chưa đủ để kể hết
+              những điều đẹp đẽ mình mong dành cho em.
+            </p>
+            <p>
+              Mong em luôn được yêu thương thật nhiều, được cười thật tươi,
+              được ngủ yên sau những ngày dài. Và dù mai này có đi qua bao mùa
+              hoa, em vẫn sẽ nhớ: em rất đặc biệt, theo cách chẳng ai thay thế
+              được.
+            </p>
+            <p>Chúc em một ngày 20/10 ngọt ngào như chính em. ♡</p>
+            <div className="signature">Thương em nhiều ♡</div>
+          </div>
+          <div className="envelope-front" aria-hidden="true">
+            <span className="wax-seal">♡</span>
+          </div>
         </div>
       </dialog>
     </>
