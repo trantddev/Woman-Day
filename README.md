@@ -1,4 +1,4 @@
-# Trang 20/10 cho Nguyễn Phương Thảo
+# Trang 20/10 cho Nguyễn Thị Phương Thảo
 
 Yêu cầu Node.js 20.19+ hoặc 22.12+.
 

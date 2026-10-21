@@ -179,7 +179,7 @@ export default function App() {
               <br />
               ngày của <em>Thảo.</em>
             </h1>
-            <span className="script">Nguyễn Phương Thảo</span>
+            <span className="script">Nguyễn Thị Phương Thảo</span>
             <p className="hero-copy">
               Thảo ơi, giữa tiết trời tháng Mười dịu ngọt, gửi đến em một làn
               hương hoa sữa ngát bay — mong em luôn an yên, dịu dàng và rực rỡ
@@ -206,7 +206,7 @@ export default function App() {
         <div className="ticker" aria-hidden="true">
           <span>
             ❀ &nbsp; Hoa sữa Hà Nội nồng nàn góc phố <b>❀</b> Chúc mừng ngày Phụ
-            nữ Việt Nam 20/10 <b>❀</b> Dành tặng Nguyễn Phương Thảo trọn vẹn yêu
+            nữ Việt Nam 20/10 <b>❀</b> Dành tặng Nguyễn Thị Phương Thảo trọn vẹn yêu
             thương <b>❀</b> Be sweet, be gentle, be you
           </span>
         </div>
@@ -227,7 +227,7 @@ export default function App() {
             </div>
           </div>
           <div className="message-content">
-            <div className="eyebrow">Gửi đến Nguyễn Phương Thảo</div>
+            <div className="eyebrow">Gửi đến Nguyễn Thị Phương Thảo</div>
             <h2>
               Mong em luôn
               <br />
@@ -302,7 +302,7 @@ export default function App() {
       </main>
 
       <footer>
-        <span>Made with ♡ for Nguyễn Phương Thảo</span>
+        <span>Made with ♡ for Nguyễn Thị Phương Thảo</span>
         <span>20.10.2026 · Mùa hoa sữa Hà Nội</span>
       </footer>
 
